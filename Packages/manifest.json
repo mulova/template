@@ -1,0 +1,71 @@
+{
+  "dependencies": {
+    "chromapack": "https://github.com/mulova/ChromaPack.git#upm",
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=/src/UniTask/Assets/Plugins/UniTask/",
+    "com.unity.addressables": "1.1.10",
+    "com.unity.cinemachine": "2.6.0",
+    "com.unity.ide.vscode": "1.2.1",
+    "com.unity.mobile.notifications": "1.0.3",
+    "com.unity.quicksearch": "2.0.0",
+    "com.unity.render-pipelines.universal": "7.3.1",
+    "com.unity.scriptablebuildpipeline": "1.5.10",
+    "com.unity.test-framework": "1.1.14",
+    "com.unity.textmeshpro": "2.0.1",
+    "com.unity.timeline": "1.2.15",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.visualeffectgraph": "7.3.1",
+    "guid-based-reference": "https://github.com/mulova/guid-based-reference.git#upm",
+    "mulova.commons": "https://github.com/mulova/commons.git#upm",
+    "mulova.shortcut": "https://github.com/mulova/shortcut.git#upm",
+    "mulova.switcher": "https://github.com/mulova/switcher.git#plugin/ugui",
+    "unity-dither4444": "https://github.com/mulova/unity-dither4444.git#upm",
+    "com.unity.modules.ai": "1.0.0",
+    "com.unity.modules.androidjni": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.assetbundle": "1.0.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.director": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.physics2d": "1.0.0",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+    "com.unity.modules.unitywebrequestaudio": "1.0.0",
+    "com.unity.modules.unitywebrequesttexture": "1.0.0",
+    "com.unity.modules.video": "1.0.0"
+  },
+  "lock": {
+    "com.cysharp.unitask": {
+      "revision": "HEAD",
+      "hash": "9d3b7adc8e21143f4054af26df653da56840fa72"
+    },
+    "chromapack": {
+      "revision": "upm",
+      "hash": "8c125c7a8ccda880ce83b5439562e25860a42758"
+    },
+    "guid-based-reference": {
+      "revision": "upm",
+      "hash": "17c6c4574112c5a8fa0ba0289ff2580f8bb21893"
+    },
+    "mulova.commons": {
+      "revision": "upm",
+      "hash": "99f772b60bfcf33ba6ec3a3ecac9f21da1b1d668"
+    },
+    "mulova.shortcut": {
+      "revision": "upm",
+      "hash": "72bad417f1ad25fa19e7eae142abe45b327be278"
+    },
+    "mulova.switcher": {
+      "revision": "plugin/ugui",
+      "hash": "654a6e21f36eed9846b9db5f235a85f1b9320c07"
+    },
+    "unity-dither4444": {
+      "revision": "upm",
+      "hash": "9e7000c2e587ca060bc3f68c559c34d56d91b3c7"
+    }
+  }
+}
