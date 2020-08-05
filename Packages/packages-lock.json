@@ -176,6 +176,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.uiextensions": {
+      "version": "https://bitbucket.org/UnityUIExtensions/unity-ui-extensions.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "214b4a1a6965559b13f5363bbddb380b86f45c13"
+    },
     "com.unity.visualeffectgraph": {
       "version": "8.2.0",
       "depth": 0,
@@ -301,6 +308,14 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {}
+    },
+    "com.unity.modules.screencapture": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
     },
     "com.unity.modules.ui": {
       "version": "1.0.0",
