@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Remove empty assets directory
+#ASSETS_DIR="$(git config --get unity3d.assets-dir || echo "Assets")"
+#find "$ASSETS_DIR" -depth -type d -empty -delete
+echo "removing empty dir"
+find Assets -depth \
+    \( -type f -name ".DS_Store" -delete \) -or \
+    \( -type f -name "Thumbs.db" -delete \) -or \
+    \( -type f -name "Desktop.ini" -delete \) -or \
+    \( -type f -name "desktop.ini" -delete \) -or \
+    \( -type d -empty -exec echo "Removing: {}" \; -delete -exec rm -f "{}.meta" \; \)
